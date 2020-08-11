@@ -1,48 +1,111 @@
 baseURL = "https://gohugo.io"
 title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+author = "De-Wei Ye"
+theme = "dw-favored-blackburn"
+copyright = "&copy; 2020. All rights reserved."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+canonifyurls = true
 
-[menu]
+[indexes]
+  tag = "tags"
+  topic = "topics"
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+[social]
+  linkedin = "dwy6626"
+  github = "dwy6626"
+  leetcode = 'mirror0227'
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+[params]
+  brand = "John Smith"
+  # googleAnalytics = ""
+  # disqus = ""
+  dateFormat = "Jan 02, 2006"
+  highlightjs = "vs2015"
+  highlightjs_extra_languages = [
+    "yaml",
+    ]
 
-[privacy]
+[languages]
+  [languages.en]
+    title = "A Sample Site"
+    subtitle = "A man is only ever as strong as the people around him."
+    from = 'John Smith'
+    weight = 2
+    contentDir = "content/en"
+    languageName = "en"
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "中文"
+        pre = '<i class="fas fa-globe-asia fa-fw"></i>'
+        weight = 100
+        url = "../zh"
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+      [[languages.en.menu.main]]
+        name = "About"
+        pre = "<i class='fas fa-user-circle fa-fw'></i>"
+        weight = 3
+        url = "about/"
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+      [[languages.en.menu.main]]
+        name = "Posts"
+        pre = "<i class='fas fa-list-ul fa-fw'></i>"
+        weight = 10
+        url = "post/"
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+      [[languages.en.menu.main]]
+        name = "Topics"
+        pre = '<i class="fas fa-folder fa-fw"></i>'
+        weight = 20
+        url = "topics/"
 
-[services]
+      [[languages.en.menu.main]]
+        name = "Tags"
+        pre = "<i class='fas fa-tags fa-fw'></i>"
+        weight = 30
+        url = "tags/"
 
-  [services.instagram]
-    disableInlineCSS = true
+  [languages.zh]
+    title = "就...我記憶卡沒帶到"
+    subtitle = "啊我就怕被罵啊"
+    from = '反正我很閒'
+    weight = 1
+    languageName = "zh"
+    contentDir = "content/zh"
+    # for chinese: words are much "smaller" and thus more words should be shown
+    summaryLength = 250
+    hasCJKLanguage = true
+    [languages.zh.menu]
 
-  [services.twitter]
-    disableInlineCSS = true
+      [[languages.zh.menu.main]]
+        name = "文章列表"
+        pre = "<i class='fas fa-list-ul fa-fw'></i>"
+        weight = 10
+        url = "post/"
+
+      [[languages.zh.menu.main]]
+        name = "主題分類"
+        pre = '<i class="fas fa-folder fa-fw"></i>'
+        weight = 20
+        url = "topics/"
+
+      [[languages.zh.menu.main]]
+        name = "標籤"
+        pre = "<i class='fas fa-tags fa-fw'></i>"
+        weight = 30
+        url = "tags/"
+
+      [[languages.zh.menu.main]]
+        name = "English"
+        pre = '<i class="fas fa-globe-americas fa-fw"></i>'
+        weight = 100
+        url = "../"
+
+      [[languages.zh.menu.main]]
+        name = "關於"
+        pre = "<i class='fas fa-user-circle fa-fw'></i>"
+        weight = 5
+        url = "about/"
