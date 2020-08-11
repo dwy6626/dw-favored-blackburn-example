@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on 就...我記憶卡沒帶到</title>
+    <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/</link>
+    <description>Recent content in Topics on 就...我記憶卡沒帶到</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>廢文</title>
+      <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%BB%A2%E6%96%87/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%BB%A2%E6%96%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>假ㄉ</title>
+      <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%81%87%E3%84%89/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%81%87%E3%84%89/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

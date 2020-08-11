@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>廢文 on 就...我記憶卡沒帶到</title>
+    <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%BB%A2%E6%96%87/</link>
+    <description>Recent content in 廢文 on 就...我記憶卡沒帶到</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dwy6626.github.io/dw-favored-blackburn-example/zh/topics/%E5%BB%A2%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>假文產生器</title>
+      <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/post/fake/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dwy6626.github.io/dw-favored-blackburn-example/zh/post/fake/</guid>
+      <description>&lt;p&gt;我還要寫一篇中文的示範文章，太難了吧 QQ&lt;/p&gt;
+&lt;p&gt;還好有這個假文產生器&lt;/p&gt;
+&lt;p&gt;不小心 Google 到，謝謝假文產生器讓我可以快速生產範例文章。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>生日快ㄌ</title>
+      <link>https://dwy6626.github.io/dw-favored-blackburn-example/zh/post/birthday/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dwy6626.github.io/dw-favored-blackburn-example/zh/post/birthday/</guid>
+      <description>&lt;p&gt;用 more 的話會有格式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第二行&lt;/li&gt;
+&lt;li&gt;第三行&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
