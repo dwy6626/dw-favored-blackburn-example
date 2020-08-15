@@ -19,7 +19,7 @@ canonifyurls = true
 
 [params]
   description = "dw-favored blackburn example site"
-  brand = "John Smith"
+  brand = "Blackburn"
   # googleAnalytics = ""
   # disqus = ""
   dateFormat = "Jan 02, 2006"
