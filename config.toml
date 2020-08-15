@@ -18,6 +18,7 @@ canonifyurls = true
   leetcode = 'mirror0227'
 
 [params]
+  description = "dw-favored blackburn example site"
   brand = "John Smith"
   # googleAnalytics = ""
   # disqus = ""
