@@ -8,7 +8,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 canonifyurls = true
 
-[indexes]
+[taxonomies]
   tag = "tags"
   topic = "topics"
 
