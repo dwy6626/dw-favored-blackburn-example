@@ -131,6 +131,9 @@ div.post-meta span, li {
     span.after_date {
         display: none;
     }
+    div.content li+li a.break {
+        display: inline;
+    }
 }
     
 .content {
