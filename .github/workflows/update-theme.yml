@@ -2,12 +2,9 @@ name: Update Theme
 
 on:
   repository_dispatch:
-    - types:
-      - theme-trigger
+  workflow_dispatch:
 
-  workflow_dispatch
-
-jobs:
+  jobs:
   update-theme:
     runs-on: ubuntu-18.04
     steps:
