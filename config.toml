@@ -1,7 +1,7 @@
-baseURL = "https://dwy6626.github.io/dw-favored-blackburn-example/"
+baseURL = "https://dwye.dev/dw-favored-blackburn-example/"
 author = "Hugo authors"
 theme = "dw-favored-blackburn"
-copyright = "&copy; 2020. All rights reserved."
+copyright = "&copy; 2021. All rights reserved."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -25,6 +25,7 @@ canonifyurls = true
   dateFormat = "Jan 02, 2006"
   highlightjs = "vs2015"
   readingTime = true
+  toc = true
 
 [languages]
   [languages.en]
