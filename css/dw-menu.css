@@ -24,10 +24,6 @@
     font-size: 1.35em;
 }
 
-#menu .pure-menu ul.pure-menu-children {
-    border-top: none;
-}
-
 a.pure-menu-link span {
     padding-left: 4px;
 }
