@@ -26,6 +26,9 @@ canonifyurls = true
   highlightjs = "vs2015"
   readingTime = true
   toc = true
+  
+  [params.utteranc]
+    repo = "dwy6626/dw-favored-blackburn-example"
 
 [languages]
   [languages.en]
