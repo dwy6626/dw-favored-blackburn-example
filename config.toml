@@ -1,8 +1,9 @@
 baseURL = "https://theme.dwye.dev/"
 author = "Hugo authors"
 theme = "dw-favored-blackburn"
-copyright = "&copy; 2021. All rights reserved."
-paginate = 3
+copyright = "&copy; 2025. All rights reserved."
+[pagination]
+pagerSize = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -12,20 +13,23 @@ canonifyurls = true
   tag = "tags"
   topic = "topics"
 
-[social]
-  linkedin = "dwy6626"
-  github = "dwy6626"
-  leetcode = 'mirror0227'
-
 [params]
+  baseURL = "/"
+  fullURL = "https://theme.dwye.dev"
+  copyrightPage = "/"
   description = "dw-favored blackburn example site"
   brand = "Blackburn"
   # googleAnalytics = ""
   # disqus = ""
   dateFormat = "Jan 02, 2006"
   highlightjs = "vs2015"
-  readingTime = true
+  ReadingTime = true
   toc = true
+
+  [params.social]
+    linkedin = "dwy6626"
+    github = "dwy6626"
+    leetcode = "mirror0227"
   
   [params.utteranc]
     repo = "dwy6626/dw-favored-blackburn-example"
@@ -33,11 +37,13 @@ canonifyurls = true
 [languages]
   [languages.en]
     title = "A Sample Site"
-    subtitle = "A man is only ever as strong as the people around him."
-    from = 'John Smith'
     weight = 2
     contentDir = "content/en"
     languageName = "en"
+
+    [languages.en.params]
+      subtitle = "A man is only ever as strong as the people around him."
+      from = "John Smith"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -72,14 +78,15 @@ canonifyurls = true
 
   [languages.zh]
     title = "就...我記憶卡沒帶到"
-    subtitle = "啊我就怕被罵啊"
-    from = '反正我很閒'
     weight = 1
     languageName = "zh"
     contentDir = "content/zh"
     # for chinese: words are much "smaller" and thus more words should be shown
     summaryLength = 250
     hasCJKLanguage = true
+    [languages.zh.params]
+      subtitle = "啊我就怕被罵啊"
+      from = "反正我很閒"
     [languages.zh.menu]
 
       [[languages.zh.menu.main]]
