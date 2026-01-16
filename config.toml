@@ -29,7 +29,7 @@ canonifyurls = true
   [params.social]
     linkedin = "dwy6626"
     github = "dwy6626"
-    leetcode = "mirror0227"
+    leetcode = "ave-mujica"
   
   [params.utteranc]
     repo = "dwy6626/dw-favored-blackburn-example"
